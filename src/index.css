@@ -16,6 +16,16 @@ code {
     monospace;
 }
 
+.custom-pattern {
+  background:
+  radial-gradient(48px at 100% 0, #f6f6f6 6.25%, #efefef 6.3% 18.75%, #f6f6f6 18.8% 31.25%, #efefef 31.3% 43.75%, #f6f6f6 43.8% 56.25%, #efefef 56.3% 68.75%, #0000 0),
+  radial-gradient(48px at 0 0, #f6f6f6 6.25%, #efefef 6.3% 18.75%, #f6f6f6 18.8% 31.25%, #efefef 31.3% 43.75%, #f6f6f6 43.8% 56.25%, #efefef 56.3% 68.75%, #0000 0),
+  radial-gradient(48px at 0 100%, #f6f6f6 6.25%, #efefef 6.3% 18.75%, #f6f6f6 18.8% 31.25%, #efefef 31.3% 43.75%, #f6f6f6 43.8% 56.25%, #efefef 56.3% 68.75%, #0000 0),
+  radial-gradient(48px at 100% 100%, #f6f6f6 6.25%, #efefef 6.3% 18.75%, #f6f6f6 18.8% 31.25%, #efefef 31.3% 43.75%, #f6f6f6 43.8% 56.25%, #efefef 56.3% 68.75%, #0000 0) #f6f6f6;
+background-size: 48px 48px;
+background-color: #f6f6f6;
+}
+
 .rotate-slow {
   animation: rotate 20s linear infinite;
 }

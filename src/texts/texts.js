@@ -18,74 +18,74 @@ export const t = {
 		en: "Hi, I'm Francisco Quezada",
 	},
 	subtitle1: {
-		es: "Ingeniero de Software Frontend con 5+ años de experiencia en desarrollo de aplicaciones SPA y modernización de sistemas legados. ",
-		en: "Frontend Software Engineer with 5+ years of experience in developing SPA applications and modernizing legacy systems.",
+		es: "Ingeniero de Software Frontend con 5+ años de experiencia en desarrollo de aplicaciones web y modernización de sistemas legados. ",
+		en: "Frontend Software Engineer with 5+ years of experience in developing web applications and modernizing legacy systems.",
 	},
 	subtitle2: {
-		es: "He trabajado en proyectos diversos, mejorando la eficiencia y funcionalidad de sistemas empresariales y gubernamentales.",
+		es: "He trabajado en diversos proyectos, mejorando la eficiencia y funcionalidad de sistemas empresariales y gubernamentales.",
 		en: "I have worked on various projects, improving the efficiency and functionality of business and government systems.",
 	},
 	experience: [
 		{
 			date: {
-				es: "Oct 2024",
-				en: "Oct 2024"
+				es: "Ene 2024",
+				en: "Jan 2024"
 			},
 			title: {
 				es: "Nexteo – Gobierno de Chile",
 				en: "Nexteo – Government of Chile"
 			},
 			desc: {
-				es: "Lideré el desarrollo e implementación frontend del nuevo sistema Spa para el control de examinaciones de dirección del tránsito de Conaset. Modernización de sistemas legados e integración con aplicaciones de terceros en cada municipalidad (Angular, AWS, Claveunica).",
-				en: "I led the development and frontend implementation of the new Spa system for the control of Conaset traffic direction examinations. Modernization of legacy systems and integration with third-party applications in each municipality (Angular, AWS, Claveunica)."
+				es: "Lideré el desarrollo frontend del nuevo sistema Spa para el control de examinaciones de dirección del tránsito de Conaset. Modernización de sistemas legados e integración con aplicaciones de terceros.",
+				en: "I led the frontend development of the new Spa system for the control of Conaset traffic direction examinations. Modernization of legacy systems and integration with third-party applications."
 			}
 		},
 		{
 			date: {
-				es: "Feb 2024",
-				en: "Feb 2024"
+				es: "May 2023",
+				en: "May 2023"
 			},
 			title: {
 				es: "CPAT – Gobierno de Chile",
 				en: "CPAT – Government of Chile"
 			},
 			desc: {
-				es: "Desarrollo e implementación del frontend del sistema Spa para la gestión del catálogo de procedimientos administrativos y trámites a nivel nacional.",
-				en: "Development and implementation of the frontend for the Spa system managing the national catalog of administrative procedures and processes."
+				es: "Lidere el desarrollo frontend del nuevo sistema para la gestión del catálogo de procedimientos administrativos y trámites a nivel nacional.",
+				en: "I led the frontend development of the new system for managing the catalog of administrative procedures and procedures at the national level.."
 			}
 		},
 		{
 			date: {
-				es: "Ene 2024",
-				en: "Ene 2024"
+				es: "Ene 2023",
+				en: "Ene 2023"
 			},
 			title: {
 				es: "Forecast IA",
 				en: "Forecast IA"
 			},
 			desc: {
-				es: "Desarrollo e implementación de un dashboard web Spa que presenta resultados de modelos de machine learning orientados a la previsión.",
-				en: "Development and implementation of a web Spa dashboard showcasing results from machine learning models focused on forecasting."
+				es: "Desarrollo de una aplicación web que presenta resultados gráficos de modelos de machine learning orientados al forecasting, interactivo y escalable.",
+				en: "Development of a web application that presents graphic results from machine learning models aimed at forecasting, interactive and scalable."
 			}
 		},
 		{
 			date: {
-				es: "Oct 2023",
-				en: "Oct 2023"
+				es: "Oct 2022",
+				en: "Oct 2022"
 			},
 			title: {
 				es: "Inacap DB",
 				en: "Inacap DB"
 			},
 			desc: {
-				es: "Desarrollo e implementación de un sistema Spa dedicado a la gestión y mantenimiento de bases de datos para el Instituto Inacap.",
-				en: "Development and implementation of a Spa system dedicated to the management and maintenance of databases for the Inacap Institute."
+				es: "Lideré el desarrollo de una aplicación web dedicado a la gestión y mantenimiento de bases de datos para el Instituto Inacap, con gestor de históricos y dashboard interactivos.",
+				en: "I led the development of a web application dedicated to the management and maintenance of databases for the Inacap Institute, with a history manager and interactive dashboard."
 			}
 		},
 		{
 			date: {
-				es: "Ago 2023",
-				en: "Ago 2023"
+				es: "Ene 2022",
+				en: "Jan 2022"
 			},
 			title: {
 				es: "Calendar Campaigns",
@@ -98,8 +98,8 @@ export const t = {
 		},
 		{
 			date: {
-				es: "Jun 2023",
-				en: "Jun 2023"
+				es: "Sept 2021",
+				en: "Sept 2021"
 			},
 			title: {
 				es: "Dashboard Campaigns",
@@ -112,8 +112,8 @@ export const t = {
 		},
 		{
 			date: {
-				es: "Mar 2023",
-				en: "Mar 2023"
+				es: "Mar 2021",
+				en: "Mar 2021"
 			},
 			title: {
 				es: "Form by Node",
@@ -124,5 +124,15 @@ export const t = {
 				en: "Creation of a marketing campaign creation module using graphs and draggable nodes."
 			}
 		}
-	]
+	],
+	utils: {
+		view_more: {
+			es: "Ver mas...",
+			en: "View more...",
+		},
+		view_less: {
+			es: "Ver menos...",
+			en: "View less...",
+		},
+	}
 }
